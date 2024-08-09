@@ -1,37 +1,37 @@
 @font-face {
-    font-family: "poppins";
-    src: url("../Fonts/Poppins-Regular.ttf");
-    font-weight: 400;
+  font-family: "poppins";
+  src: url("../Fonts/Poppins-Regular.ttf");
+  font-weight: 400;
 }
 
 @font-face {
-    font-family: "poppins";
-    src: url("../Fonts/Poppins-Medium.ttf");
-    font-weight: 500;
+  font-family: "poppins";
+  src: url("../Fonts/Poppins-Medium.ttf");
+  font-weight: 500;
 }
 
 @font-face {
-    font-family: "poppins";
-    src: url("../Fonts/Poppins-SemiBold.ttf");
-    font-weight: 600;
+  font-family: "poppins";
+  src: url("../Fonts/Poppins-SemiBold.ttf");
+  font-weight: 600;
 }
 
 @font-face {
-    font-family: "poppins";
-    src: url("../Fonts/Poppins-Bold.ttf");
-    font-weight: 700;
+  font-family: "poppins";
+  src: url("../Fonts/Poppins-Bold.ttf");
+  font-weight: 700;
 }
 
 @font-face {
-    font-family: "poppins";
-    src: url("../Fonts/Poppins-ExtraBold.ttf");
-    font-weight: 800;
+  font-family: "poppins";
+  src: url("../Fonts/Poppins-ExtraBold.ttf");
+  font-weight: 800;
 }
 
 @font-face {
-    font-family: "poppins";
-    src: url("../Fonts/Poppins-Black.ttf");
-    font-weight: 900;
+  font-family: "poppins";
+  src: url("../Fonts/Poppins-Black.ttf");
+  font-weight: 900;
 }
 
 :root {
@@ -474,40 +474,40 @@ body {
 @media (max-width: 1201px) {
 }
 @media (max-width: 1025px) {
-  .news_banner{
+  .news_banner {
     padding: 50px;
   }
-  .news_wrapper{
+  .news_wrapper {
     padding: 50px;
   }
-  .news_wrapper_left{
+  .news_wrapper_left {
     max-width: 60%;
   }
-  .news_wrapper_right{
+  .news_wrapper_right {
     max-width: 40%;
   }
-  .news_writter{
-      font-size: 14px;
-    }
-    .news_writter>span{
-      padding: 6px 12px;
-    }
-    .news_heading{
-      font-size: 24px;
-      line-height: normal;
-    }
-    .news_paragraph{
-      font-size: 16px;
-      line-height: normal;
-    }
-    .next_news_wrapper > .news_heading {
-      font-size: 20px;
-      line-height: normal;
-    }
-    .next_news>img{
-      width: 100px;
-      height: 100px;
-    }
+  .news_writter {
+    font-size: 14px;
+  }
+  .news_writter > span {
+    padding: 6px 12px;
+  }
+  .news_heading {
+    font-size: 24px;
+    line-height: normal;
+  }
+  .news_paragraph {
+    font-size: 16px;
+    line-height: normal;
+  }
+  .next_news_wrapper > .news_heading {
+    font-size: 20px;
+    line-height: normal;
+  }
+  .next_news > img {
+    width: 100px;
+    height: 100px;
+  }
 }
 @media (max-width: 769px) {
   .navbar {
@@ -525,23 +525,23 @@ body {
   .menu {
     display: block;
   }
-  .news_banner{
+  .news_banner {
     padding: 50px;
   }
-  .news_banner_breadcrum{
+  .news_banner_breadcrum {
     font-size: 10px;
   }
-  .news_banner_heading{
+  .news_banner_heading {
     font-size: 24px;
   }
-  .news_banner_paragraph{
+  .news_banner_paragraph {
     font-size: 14px;
   }
-  .news_wrapper{
+  .news_wrapper {
     /* flex-direction: column; */
     padding: 30px;
   }
-  .next_news{
+  .next_news {
     flex-direction: column;
   }
 
@@ -625,34 +625,34 @@ body {
     .side-nav-menu {
       width: 100%;
     }
-    .news_banner{
+    .news_banner {
       padding: 30px;
     }
-    .news_banner_heading{
+    .news_banner_heading {
       line-height: normal;
     }
-    .news_banner_paragraph{
+    .news_banner_paragraph {
       line-height: normal;
     }
     .news_wrapper_left,
-    .news_wrapper_right{
+    .news_wrapper_right {
       max-width: 100%;
     }
-    .news_wrapper{
+    .news_wrapper {
       padding: 30px;
       flex-direction: column;
     }
-    .news_writter{
+    .news_writter {
       font-size: 14px;
     }
-    .news_writter>span{
+    .news_writter > span {
       padding: 6px 12px;
     }
-    .news_heading{
+    .news_heading {
       font-size: 24px;
       line-height: normal;
     }
-    .news_paragraph{
+    .news_paragraph {
       font-size: 13px;
       line-height: normal;
     }
@@ -660,12 +660,12 @@ body {
       font-size: 18px;
       line-height: normal;
     }
-    .next_news img{
+    .next_news img {
       /* flex-direction: column; */
       width: 100px;
       height: 100px;
     }
-    .next_news{
+    .next_news {
       flex-direction: row;
     }
     .section-7 {
@@ -709,10 +709,10 @@ body {
     .nav-item {
       display: none;
     }
-    .next_news{
+    .next_news {
       flex-direction: row;
     }
-    .next_news_wrapper >.news_writter{
+    .next_news_wrapper > .news_writter {
       font-size: 10px;
     }
     .section-7 {

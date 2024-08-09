@@ -1,37 +1,37 @@
 @font-face {
-    font-family: "poppins";
-    src: url("../Fonts/Poppins-Regular.ttf");
-    font-weight: 400;
+  font-family: "poppins";
+  src: url("../Fonts/Poppins-Regular.ttf");
+  font-weight: 400;
 }
 
 @font-face {
-    font-family: "poppins";
-    src: url("../Fonts/Poppins-Medium.ttf");
-    font-weight: 500;
+  font-family: "poppins";
+  src: url("../Fonts/Poppins-Medium.ttf");
+  font-weight: 500;
 }
 
 @font-face {
-    font-family: "poppins";
-    src: url("../Fonts/Poppins-SemiBold.ttf");
-    font-weight: 600;
+  font-family: "poppins";
+  src: url("../Fonts/Poppins-SemiBold.ttf");
+  font-weight: 600;
 }
 
 @font-face {
-    font-family: "poppins";
-    src: url("../Fonts/Poppins-Bold.ttf");
-    font-weight: 700;
+  font-family: "poppins";
+  src: url("../Fonts/Poppins-Bold.ttf");
+  font-weight: 700;
 }
 
 @font-face {
-    font-family: "poppins";
-    src: url("../Fonts/Poppins-ExtraBold.ttf");
-    font-weight: 800;
+  font-family: "poppins";
+  src: url("../Fonts/Poppins-ExtraBold.ttf");
+  font-weight: 800;
 }
 
 @font-face {
-    font-family: "poppins";
-    src: url("../Fonts/Poppins-Black.ttf");
-    font-weight: 900;
+  font-family: "poppins";
+  src: url("../Fonts/Poppins-Black.ttf");
+  font-weight: 900;
 }
 
 :root {
@@ -298,7 +298,7 @@ body {
   border: 0.6px solid #cecece;
   padding: 20px;
 }
-.message_firstname ,
+.message_firstname,
 .message_lastname {
   width: 322px;
 }
@@ -497,10 +497,12 @@ body {
 @media (max-width: 1201px) {
 }
 @media (max-width: 1025px) {
-  .contact_banner{
+  .contact_banner {
     padding: 50px;
   }
-  .contact_banner_social,.contact_banner_telephone,.contact_banner_address{
+  .contact_banner_social,
+  .contact_banner_telephone,
+  .contact_banner_address {
     font-size: 16px;
   }
 }
@@ -520,16 +522,18 @@ body {
   .menu {
     display: block;
   }
-  .contact_banner_social,.contact_banner_telephone,.contact_banner_address{
+  .contact_banner_social,
+  .contact_banner_telephone,
+  .contact_banner_address {
     font-size: 14px;
   }
-  .contact_banner_address{
+  .contact_banner_address {
     width: 200px;
   }
-  .social_icon{
+  .social_icon {
     height: 50px;
   }
-  .contact_message{
+  .contact_message {
     padding: 50px;
   }
   .section-7 {
@@ -560,37 +564,40 @@ body {
   .nav-items {
     display: none;
   }
-  .contact_banner{
+  .contact_banner {
     padding: 30px;
   }
-  .contact_banner_social,.contact_banner_telephone,.contact_banner_address{
+  .contact_banner_social,
+  .contact_banner_telephone,
+  .contact_banner_address {
     font-size: 14px;
     width: 100%;
   }
-  .contact_banner_address{
+  .contact_banner_address {
     width: auto;
   }
-  .social_icon{
+  .social_icon {
     height: 50px;
   }
-  .contact_banner_wrapper{
+  .contact_banner_wrapper {
     flex-direction: column;
     gap: 20px;
     align-items: left;
     max-width: 300px;
     margin: 40px auto;
   }
-  .splitter{
+  .splitter {
     display: none;
   }
-  .contact_message{
+  .contact_message {
     padding: 30px;
   }
-  .message_name_section{
+  .message_name_section {
     flex-direction: column;
     gap: 20px;
   }
-  .message_firstname,.message_lastname{
+  .message_firstname,
+  .message_lastname {
     width: 100%;
   }
   .section-7 {
@@ -644,17 +651,17 @@ body {
     .side-nav-menu {
       width: 100%;
     }
-    .contact_banner{
+    .contact_banner {
       gap: 20px;
     }
-    .contact_banner_breadcrum{
+    .contact_banner_breadcrum {
       font-size: 10px;
     }
-    .contact_banner_heading{
+    .contact_banner_heading {
       font-size: 24px;
       line-height: normal;
     }
-    .contact_banner_paragraph{
+    .contact_banner_paragraph {
       font-size: 14px;
       line-height: normal;
     }
