@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact us</title>
+    <link rel="stylesheet" href="contact_page.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-details">
+        <a href="#" class="nav-address">
+          <img src="../Navbar/pin (1) 1.svg" alt="" />
+          Company address type here
+        </a>
+        <a href="#" class="nav-call">
+          <img src="../Navbar/phone-call (4) 1.svg" alt="" />
+          +91 00000 00000
+        </a>
+      </div>
+      <div class="nav-desktop">
+        <a href="#logo" class="nav-logo">LOGO</a>
+       <ul class="nav-items">
+          <li><a href="../index.html" class="nav-item">Home</a></li>
+          <li><a href="../About_page/About_page.html" class="nav-item">About us</a></li>
+          <li><a href="../Service_page/service_page.html" class="nav-item">Services</a></li>
+          <li><a href="../News_page/news_page.html" class="nav-item">News</a></li>
+          <li><a href="../Contact_page/contact_page.html" class="nav-btn">Contact Us</a></li>
+        </ul>
+        <div class="menu" onclick="open_menu()">=</div>
+      </div>
+    </nav>
+    <div class="side-nav-menu">
+      <div class="side-menu-close" onclick="close_menu()">X</div>
+      <div class="side-menu-items">
+        <li><a href="../index.html" class="side-menu-item">Home</a></li>
+        <li><a href="../About_page//About_page.html" class="side-menu-item">About us</a></li>
+        <li><a href="../Service_page/service_page.html" class="side-menu-item">Services</a></li>
+        <li><a href="../News_page/news_page.html" class="side-menu-item">News</a></li>
+        <li>
+          <a href="../Contact_page/contact_page.html" class="side-menu-item side-menu-btn"
+            >Contact Us</a
+          >
+        </li>
+      </div>
+    </div>
+    <main class="main">
+      <div class="contact_banner">
+        <div class="contact_banner_breadcrum">
+          Home > <span>Contact us</span>
+        </div>
+        <div class="contact_banner_heading">
+          Lorem Ipsum is simply dummy text of the printing and.
+        </div>
+        <div class="contact_banner_paragraph">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry.
+        </div>
+        <img src="./Assets/contact_banner_img.svg" alt="" class="contact_banner_img" />
+        <div class="contact_banner_wrapper">
+          <div class="contact_banner_social">
+            Follow us
+            <div class="contact_links">
+              <img src="./Assets/Footer/Group 5.svg" alt="" class="social_icon" />
+              <img src="./Assets/Footer/Group 9.png" alt="" class="social_icon" />
+              <img src="./Assets/Footer/Group 10.png" alt="" class="social_icon" />
+              <img src="./Assets/Footer/Group 11.svg" alt="" class="social_icon" />
+            </div>
+          </div>
+          <img src="./Assets/service_banner_spliter.svg" alt="" class="splitter">
+          <div class="contact_banner_telephone">
+            <img src="./Assets/contact_banner_phone.svg" alt="" />
+            +91 00000 00000
+          </div>
+          <img src="./Assets/service_banner_spliter.svg" alt="" class="splitter">
+          <div class="contact_banner_address">
+            <img src="./Assets/contact_banner_gps.svg" alt="" />
+            but also the leap into electronic typesetting
+          </div>
+        </div>
+      </div>
+
+      <!-- --------- contact message section --------- -->
+      <div class="contact_message">
+        <div class="contact_message_heading">Say hello</div>
+        <div class="contact_message_paragraph">Lorem Ipsum is simply dummy text of the printing .</div>
+        <form action="" class="message_form">
+            <div class="message_name_section">
+                <div class="message_firstname">
+                    <label for="message_first_name">First Name</label>
+                    <input type="text" name="msg_first_name" id="msg_first_name">
+                </div>
+                <div class="message_lastname">
+                    <label for="message_last_name">Last Name</label>
+                    <input type="text" name="msg_last_name" id="msg_last_name">
+                </div>
+            </div>
+            <div class="message_Email">
+                <label for="message_email">Email Address</label>
+                <input type="email" name="msg_email" id="msg_email">
+            </div>
+            <div class="message_msg">
+                <label for="message_message">message</label>
+                <textarea name="msg_msg" id="msg_msg"></textarea>
+            </div>
+            <button type="submit" class="message_submit">Get in touch</button>
+        </form>
+      </div>
+      <!-- -------Section 7------ -->
+      <section class="section-7">
+        <div class="sec-7-container">
+          <div class="sec-7-top">
+            <div class="sec-7-top-title">Lorem Ipsum</div>
+            <div class="sec-7-top-des">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </div>
+          </div>
+          <div class="sec-7-bottom">
+            <div class="sec-7-btm-left">
+              <div class="sec-7-lft-title">Stay in the loop</div>
+              <div class="sec-7-lft-des">
+                Subscribe to receive the latest news and updates about TDA. We
+                promise not to spam you!
+              </div>
+            </div>
+            <div class="sec-7-btm-right">
+              <input
+                type="email"
+                name="emain"
+                id="email"
+                placeholder="Enter email address" />
+              <button type="submit" class="continue-btn">continue</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ------------footer------------- -->
+      <footer class="footer">
+        <div class="footer-container">
+          <div class="footer-1">
+            <div class="footer-logo">LOGO</div>
+            <div class="footer-des">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </div>
+            <div class="footer-site">@Company.com</div>
+          </div>
+          <div class=".footer-2 footer-about">
+            <div class="footer-title">About us</div>
+            <div class="footer-items">
+              <li>
+                <a class="footer-item footer-item-1">Company</a>
+              </li>
+              <li>
+                <a class="footer-item footer-item-1">Protfolio</a>
+              </li>
+              <li>
+                <a class="footer-item footer-item-1">Careers</a>
+              </li>
+              <li>
+                <a class="footer-item footer-item-1">Contact us</a>
+              </li>
+            </div>
+          </div>
+          <div class="footer-3">
+            <div class="footer-title">Contact us</div>
+            <div class="footer-qutes">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </div>
+            <div class="footer-phone">+91 00000 00000</div>
+          </div>
+          <div class="footer-links">
+            <img src="../Footer/Group 5.svg" alt="" />
+            <img src="../Footer/Group 9.png" alt="" />
+            <img src="../Footer/Group 10.png" alt="" />
+            <img src="../Footer/Group 11.svg" alt="" />
+          </div>
+        </div>
+        <!-- <hr /> -->
+        <div class="copyrights">
+          copyright <span>&copy;</span>2024 Company all rights Rcerved
+        </div>
+      </footer>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
